@@ -1,0 +1,172 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hi",
+        "Hello",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye","Bye Bye","TaTa","Allah Hafez"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon.",
+        "Nice to have you as our customer"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    
+    {
+      "tag": "nothing",
+      "patterns": [""],
+      "responses": ["How can I help you?"]
+    },
+    
+    {
+      "tag": "name",
+      "patterns": ["what is your name?", "who are you?", "your name?", "say your name", "tell your name"],
+      "responses": ["I am a Sales-Bot. Made to serve you."]
+    },
+    
+    
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?",
+        "What items are available?",
+        "items?",
+        "products available",
+        "products"
+      ],
+      "responses": [
+        "We sell mango and banana now.",
+        "We have mango and banana",
+        "There are only two fruits available. Mango and Banana."
+      ]
+    },
+    
+    {
+      "tag": "stock",
+      "patterns": [
+        "Which items stock out?",
+        "jackfruit",
+        "guava",
+        "watermelon",
+        "pineapple",
+        "lichi",
+        "products available or stock out?"
+        
+        
+      ],
+      "responses": [
+        "All items are stock out except Mango and Banana"
+      ]
+    },
+    
+    
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "How to pay?",
+        "Are you cash only?",
+        "Can I pay through Bkash?"
+      ],
+      "responses": [
+        "We don't accept VISA, Mastercard and Paypal",
+        "We accept cash and Bkash",
+        "Yes. You can pay through Bkash."
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?",
+        "How long does delivery take inside Dhaka?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days",
+        "Shipping takes 2-4 days inside Dhaka. Otherwise it can take 3-7 days.",
+        "Delivery takes 2-4 days inside Dhaka. Otherwise it can take 3-7 days."
+        
+      ]
+    },
+    
+    {
+      "tag": "price",
+      "patterns": [
+        "How much?",
+        "What is the price?",
+        "Tell me about pricing?",
+        "How it cost?"
+      ],
+      "responses": [
+        "Mango: 100 BDT per kg, Banana: 50 BDT per dozen",
+        "Mango is 100 BDT per Kg and Banana is 50 BDT per dozen"
+        
+      ]
+    },
+    
+    
+    
+    
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    
+    
+    {
+      "tag": "slang",
+      "patterns": [
+        "Fuck you!",
+        "You are a bitch!",
+        "Bitch",
+        "Fuck"
+        
+      ],
+      "responses": [
+        "Don't use slang language. It's Haram",
+        "Talk to me politely"
+      ]
+    }
+    
+    
+    
+    
+    
+    
+    
+  ]
+}
